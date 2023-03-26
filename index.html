@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>toDoList</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row min-vh-100">
+            <div class="col-md-4 " style="background-color: #caf0f8;">
+                <h5 class=" my-3 mt-md-2">project to-Do</h5>
+                <div class="m-3">
+                    <i class="bi bi-asterisk text-primary"></i>
+                    <a href="" class="text-decoration-none text-dark">My day</a>
+                </div>
+                <div class="m-3">
+                    <i class="bi bi-star-fill text-primary"></i>
+                    <a href="" class="text-decoration-none text-dark">important</a>
+                </div>
+                <div class="m-3">
+                    <i class="bi bi-star-fill text-primary "></i>
+                    <a href="" class="text-decoration-none text-dark">Task</a>
+                </div>
+                <hr>
+                <div class="m-3">
+                    <i class="bi bi-list-task text-primary "></i>
+                    <a href="./new.html" class="text-decoration-none text-dark">Task</a>
+                </div>
+
+
+
+            </div>
+            <div class=" col-12 col-md-8 bg-primary text-white text-center " style="position:relative ;">
+                <h4 class="my-5">Add New Todo</h4>
+                <!-- input -->
+                <div class="mb-5 d-flex justify-content-center align-items-center">
+                    <i class="bi bi-pencil me-3 "></i>
+                    <input type="text" placeholder="Title" class="inputset text-white" id="input">
+                </div>
+
+                <div class="mb-5 d-flex justify-content-center align-items-center">
+                    <i class="bi bi-geo-alt me-3"></i>
+                    <input type="text" placeholder="Location" class="inputset text-white">
+                </div>
+
+                <div class="mb-4 d-flex justify-content-center align-items-center">
+                    <i class="bi bi-pencil me-3"></i>
+                    <input type="text" placeholder="Description" class="inputset text-white">
+                </div>
+
+
+                <div class="row">
+                    <div class="col-12 ">
+                        <button class="btn btn-danger w-75" id="button1" onclick="btnClick()">add your things</button>
+                    </div>
+                </div>
+                <div class="cbtn">
+                    <button class="btn btn-danger mb-2 me-2">+</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
